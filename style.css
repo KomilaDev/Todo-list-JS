@@ -1,0 +1,86 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+.container {
+    width: 80%;
+    height: 70vh;
+    margin: 0 auto;
+    margin-top: 50px;
+    overflow-y: scroll;
+    border-radius: 5px;
+    border: 3px solid blue;
+} 
+
+.header {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    background: linear-gradient(90deg, #fc46f3, #6446fc);
+} 
+
+.main {
+    min-height: 60vh;
+    border:1px solid #fb3fb9;
+    background: linear-gradient(45deg, #bd0b67, #f83ffb);
+}
+
+.coment {
+    width: 80%;
+    font-size: 30px;
+    padding: 15px 5px ;
+} 
+
+.add {
+    border: none;
+    color: #00f;
+    padding: 20px;
+    font-size: 20px;
+    margin-left: 10px;
+    border-radius: 10px;
+    background-color: aqua;
+}
+
+.add:hover {
+    cursor: pointer;
+}
+
+.list{
+    display: flex;
+    align-items: start;
+    padding:20px 10px;
+    margin-top: 10px;
+    justify-content: space-around;
+    border: 2px solid rgb(60, 0, 255);
+}
+
+.list:last-child {
+    margin-bottom: 10px;
+}
+
+.lists {
+   width: 90%;
+   display: flex;
+   margin: 0 auto;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.delete {
+    border: none;
+    outline: none;
+    color: #ffffff;
+    font-size: larger;
+    border-radius: 5px;
+    padding: 10px 30px;
+    background-color: #dc143c;
+}
+
+.delete:hover {
+    cursor: pointer;
+}
+
+.text {
+    font-size: 50px;
+}
